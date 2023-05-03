@@ -4,7 +4,7 @@ from PIL import Image
 from googleapiclient.discovery import build
 
 # Load your trained model here
-model = tf.keras.models.load_model('C:/Users/chanu/PycharmProjects/recyclingwaste/prowasterecycle')
+model = tf.keras.models.load_model('prowasterecycle')
 
 # Enter your API key here
 api_key = "AIzaSyC5X8Xmwe1fZ-3nIV582rVQethKu6qn2KU"
